@@ -174,9 +174,9 @@
 			<url>http://localhost:8081/repository/topa-release/</url>
 		</repository>
 		<snapshotRepository>
-			<id>releases</id>
+			<id>snapshots</id>
 			<name>Internal Snapshot Releases</name>
-			<url>http://localhost:8081/nexus/content/repositories/topa-snapshot</url>
+			<url>http://localhost:8081/nexus/content/repositories/snapshots</url>
 		</snapshotRepository>
 	</distributionManagement>
 
