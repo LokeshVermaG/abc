@@ -56,7 +56,7 @@
 				<version>${mule.tools.version}</version>
 				<extensions>true</extensions>
 				<configuration>
-                    <copyToAppsDirectory>true</copyToAppsDirectory>
+                    <copyToAppsDirectory>false</copyToAppsDirectory>
 				</configuration>
 			</plugin>
 			<plugin>
@@ -171,12 +171,12 @@
 		<repository>
 			<id>releases</id>
 			<name>Internal Releases</name>
-			<url>http://localhost:8081/repository/sample-mule-release/</url>
+			<url>http://localhost:8081/nexus/content/repositories/topa-release/</url>
 		</repository>
 		<snapshotRepository>
 			<id>releases</id>
 			<name>Internal Snapshot Releases</name>
-			<url>http://localhost:8081/repository/sample-mule-snapshot/</url>
+			<url>http://localhost:8081/nexus/content/repositories/topa-snapshot/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
