@@ -166,17 +166,17 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
-    
+	
 	<distributionManagement>		
 		<repository>
 			<id>releases</id>
 			<name>Internal Releases</name>
-			<url>http://localhost:8081/nexus/content/repositories/topa-release/</url>
+			<url>http://localhost:8081/repository/topa-release/</url>
 		</repository>
 		<snapshotRepository>
 			<id>releases</id>
 			<name>Internal Snapshot Releases</name>
-			<url>http://localhost:8081/nexus/content/repositories/topa-snapshot/</url>
+			<url>http://localhost:8081/repository/topa-snapshot/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
